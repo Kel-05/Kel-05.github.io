@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Comic Sans";
+    src: url(assets/fonts/ComicSansMS.ttf) format(truetype);
+}
+@font-face {
+    font-family: "Determination";
+    src: url(assets/fonts/DTM-Mono.otf) format(opentype);
+}
+@font-face {
+    font-family: "Mercy";
+    src: url(assets/fonts/MERCY.otf) format(opentype);
+}
+
+* {
+    font-family: "Comic Sans";
+    color: white;
+}
+body {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    font-family: "Determination";
+    color: white;
+    text-shadow:
+	3px 3px 0 black,
+	-3px 3px 0 black,
+	-3px -3px 0 black,
+	3px -3px 0 black;
+    
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.textBox {
+    font-family: "Determination";
+    font-size: large;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: thick;
+    border-style: solid;
+    margin-bottom: 30px;
+    
+    padding: 5px 10px;
+    width: 500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    font-family: "Mercy";
+    font-size: larger;
+    color: #FF8E0C;
+    background-color: black;
+    border-color: #FF8E0C;
+    border-width: medium;
+    border-style: solid;
+
+    padding: 1px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.separator { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+.left {
+    margin-left: unset;
+}
+.right {
+    margin-right: unset;
+}
