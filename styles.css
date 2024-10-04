@@ -36,7 +36,7 @@ table {
     
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
+    margin-bottom: 1.6rem;
 }
 th, td {
     border-color: white;
@@ -49,7 +49,7 @@ table.numbers th:first-child, table.numbers td:first-child {
 }
 li {
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 h1, h2, h3, h4, h5, h6 {
     color: white;
@@ -61,19 +61,19 @@ h1, h2, h3, h4, h5, h6 {
     
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
+    margin-bottom: 1.6rem;
 }
 @keyframes enlarge {
-    0% {transform: scale(1);}
-    100% {transform: scale(1.1);}
+    from {transform: scale(1);}
+    to {transform: scale(1.1);}
 }
 .avatar {
     box-shadow: 0px 0px 5px 5px orange;
     border-radius: 100%;
 
-    width: 180px;
-    height: 180px;
-    margin-bottom: 25px;
+    width: 11.25rem;
+    height: 11.25rem;
+    margin-bottom: 1.6rem;
 }
 .avatar:hover {
     animation: enlarge 0.5s both;
@@ -88,13 +88,13 @@ h1, h2, h3, h4, h5, h6 {
     border-width: thick;
     border-style: solid;
 
-    width: 500px;
+    width: 31.25rem;
     height: fit-content;
-    min-height: 100px;
+    min-height: 6.25rem;
 
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
+    margin-bottom: 1.6rem;
 }
 .button {
     font-family: "Mercy";
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     border-width: medium;
     border-style: solid;
 
-    min-width: 100px;
+    min-width: 6.25rem;
     padding: 1px 5px;
     margin-left: auto;
     margin-right: auto;
